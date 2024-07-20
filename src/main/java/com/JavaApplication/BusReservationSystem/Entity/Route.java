@@ -13,6 +13,6 @@ public class Route {
     private String departureTime;
 
     @ManyToOne
-    @JoinColumn(name = "busId")
+    @JoinColumn(name = "bus_id")
     private BusData bus;
 }

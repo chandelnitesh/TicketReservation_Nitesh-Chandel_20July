@@ -12,6 +12,6 @@ public class Seat {
     private boolean isAvailable;
 
     @ManyToOne
-    @JoinColumn(name = "busId")
+    @JoinColumn(name = "bus_id")
     private BusData bus;
 }
